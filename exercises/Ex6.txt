@@ -1,0 +1,26 @@
+<div class="apresentacao__links">
+    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+    <a class="apresentacao__links__link" href="fdsfds">Instagram</a>
+    <a class="apresentacao__links__link" href="dsgsdg">GitHub</a>
+</div>
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link {
+    color: #F6F6F6;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    border-radius: 8px;
+}
